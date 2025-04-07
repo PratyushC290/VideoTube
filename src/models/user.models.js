@@ -11,7 +11,7 @@
     // updatedAt Date
 
 import mongoose, { Schema } from "mongoose";
-import { string } from "zod";
+import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
 
 const userSchema = new Schema ({
     username : {
